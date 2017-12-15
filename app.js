@@ -8,7 +8,7 @@ angular.module('LunchCheck',[])
 LunchCheckController.$inject = ['$scope'];
 function LunchCheckController($scope) {
   //$scope.foodsOrder = "";
-  $scope.foodsOrder = "first, ,second, third, next";
+  $scope.foodsOrder = "";
 
   $scope.click = function (){
     $scope.submessage = "";
