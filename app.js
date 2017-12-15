@@ -39,9 +39,9 @@ function LunchCheckController($scope) {
     var num_of_empty = result[1];
 
     if (num_of_empty == 1) {
-      $scope.submessage = "Attention! You have an empty dish.";
+      $scope.submessage = "Attention! You have an empty dish, which doesn't count!";
     }else if (num_of_empty > 1) {
-      $scope.submessage = "Attention! You have several empty dishes.";
+      $scope.submessage = "Attention! You have several empty dishes, which don't count!";
     }
   };
 
